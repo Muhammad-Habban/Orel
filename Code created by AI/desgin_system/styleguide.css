@@ -1,0 +1,22 @@
+:root {
+  --layout-dark-90: rgba(25, 25, 46, 1);
+  --layout-gray-60: rgba(93, 135, 168, 1);
+  --notes-font-family: "Poppins-Light", Helvetica;
+  --notes-font-size: 12px;
+  --notes-font-style: normal;
+  --notes-font-weight: 300;
+  --notes-letter-spacing: -0.24px;
+  --notes-line-height: 139.9999976158142%;
+  --subtitle-font-family: "Poppins-Bold", Helvetica;
+  --subtitle-font-size: 50px;
+  --subtitle-font-style: normal;
+  --subtitle-font-weight: 700;
+  --subtitle-letter-spacing: -2px;
+  --subtitle-line-height: 70px;
+  --title-font-family: "Silka-Bold", Helvetica;
+  --title-font-size: 32px;
+  --title-font-style: normal;
+  --title-font-weight: 700;
+  --title-letter-spacing: -1.28px;
+  --title-line-height: 36.79999923706055px;
+}
