@@ -1,0 +1,481 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,700|Poppins:600");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  --layout-gray-60: rgba(93, 135, 168, 1);
+  --notes-font-family: "Poppins-Light", Helvetica;
+  --notes-font-size: 12px;
+  --notes-font-style: normal;
+  --notes-font-weight: 300;
+  --notes-letter-spacing: -0.24px;
+  --notes-line-height: 139.9999976158142%;
+  --subtitle-font-family: "Poppins-Bold", Helvetica;
+  --subtitle-font-size: 50px;
+  --subtitle-font-style: normal;
+  --subtitle-font-weight: 700;
+  --subtitle-letter-spacing: -2px;
+  --subtitle-line-height: 70px;
+}
+
+.element-easy-ways-to {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element-easy-ways-to .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 4278px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.element-easy-ways-to .overlap {
+  height: 610px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.element-easy-ways-to .backgroundhero {
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.element-easy-ways-to .mobile-native {
+  color: #9251f7;
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  left: 189px;
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  position: absolute;
+  top: 41px;
+  white-space: nowrap;
+}
+
+.element-easy-ways-to .frame {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 14px;
+  left: 189px;
+  position: absolute;
+  top: 63px;
+}
+
+.element-easy-ways-to .simulador-de-cr-dito-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+}
+
+.element-easy-ways-to .simulador-de-cr-dito {
+  color: #19192e;
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-font-size);
+  font-style: var(--subtitle-font-style);
+  font-weight: var(--subtitle-font-weight);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 924px;
+}
+
+.element-easy-ways-to .text-wrapper {
+  color: #9251f7;
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.element-easy-ways-to .btn-sign {
+  height: 60px;
+  left: 80px;
+  position: absolute;
+  top: 20px;
+  width: 60px;
+}
+
+.element-easy-ways-to .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  left: 189px;
+  position: absolute;
+  top: 266px;
+}
+
+.element-easy-ways-to .propuesta-de-concept {
+  color: var(--layout-gray-60);
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  width: 834px;
+}
+
+.element-easy-ways-to .p {
+  color: var(--layout-gray-60);
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+  position: relative;
+  width: 834px;
+}
+
+.element-easy-ways-to .footer {
+  background-color: transparent;
+  height: 137px;
+  left: 0;
+  position: absolute;
+  top: 4152px;
+  width: 1440px;
+}
+
+.element-easy-ways-to .overlap-group {
+  background-image: url(../../../static/img/rectangle-363.svg);
+  background-size: 100% 100%;
+  height: 125px;
+  width: 1440px;
+}
+
+.element-easy-ways-to .group {
+  height: 80px;
+  left: 646px;
+  position: relative;
+  top: 22px;
+  width: 150px;
+}
+
+.element-easy-ways-to .galarchenko {
+  color: #516cf7;
+  font-family: "Roboto", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0.24px;
+  line-height: 16.8px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.element-easy-ways-to .group-2 {
+  height: 21px;
+  left: 49px;
+  position: absolute;
+  top: 59px;
+  width: 52px;
+}
+
+.element-easy-ways-to .logo-linkedin {
+  background-image: url(../../../static/img/fill-1.svg);
+  background-size: 100% 100%;
+  height: 15px;
+  left: 35px;
+  position: absolute;
+  top: 5px;
+  width: 15px;
+}
+
+.element-easy-ways-to .text-wrapper-2 {
+  color: #516cf7;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.element-easy-ways-to .group-3 {
+  height: 309px;
+  left: 366px;
+  position: absolute;
+  top: 658px;
+  width: 455px;
+}
+
+.element-easy-ways-to .image {
+  height: 284px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 453px;
+}
+
+.element-easy-ways-to .propuesta-de-concept-2 {
+  color: var(--layout-gray-60);
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  left: 130px;
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  position: absolute;
+  text-align: center;
+  top: 292px;
+  white-space: nowrap;
+}
+
+.element-easy-ways-to .group-4 {
+  height: 1248px;
+  left: 189px;
+  position: absolute;
+  top: 1023px;
+  width: 924px;
+}
+
+.element-easy-ways-to .div-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.element-easy-ways-to .simulador-de-cr-dito-2 {
+  color: #19192e;
+  font-family: "Poppins", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: -1.28px;
+  line-height: 70px;
+  margin-top: -1px;
+  position: relative;
+  width: 924px;
+}
+
+.element-easy-ways-to .frame-3 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 48px;
+  left: 0;
+  position: absolute;
+  top: 78px;
+}
+
+.element-easy-ways-to .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+.element-easy-ways-to .group-5 {
+  height: 326px;
+  position: relative;
+  width: 455px;
+}
+
+.element-easy-ways-to .img {
+  height: 305px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 453px;
+}
+
+.element-easy-ways-to .propuesta-de-concept-3 {
+  color: var(--layout-gray-60);
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  left: 34px;
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  position: absolute;
+  text-align: center;
+  top: 309px;
+  white-space: nowrap;
+}
+
+.element-easy-ways-to .group-wrapper {
+  height: 300px;
+  position: relative;
+  width: 448px;
+}
+
+.element-easy-ways-to .group-6 {
+  height: 300px;
+  position: relative;
+  width: 450px;
+}
+
+.element-easy-ways-to .image-2 {
+  height: 275px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 448px;
+}
+
+.element-easy-ways-to .propuesta-de-concept-4 {
+  color: var(--layout-gray-60);
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  left: 10px;
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  position: absolute;
+  text-align: center;
+  top: 283px;
+  white-space: nowrap;
+}
+
+.element-easy-ways-to .group-7 {
+  height: 996px;
+  left: 189px;
+  position: absolute;
+  top: 2717px;
+  width: 924px;
+}
+
+.element-easy-ways-to .group-8 {
+  height: 297px;
+  position: relative;
+  width: 456px;
+}
+
+.element-easy-ways-to .image-3 {
+  height: 272px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 454px;
+}
+
+.element-easy-ways-to .propuesta-de-concept-5 {
+  color: var(--layout-gray-60);
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  left: 106px;
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  position: absolute;
+  text-align: center;
+  top: 280px;
+  white-space: nowrap;
+}
+
+.element-easy-ways-to .group-9 {
+  height: 269px;
+  position: relative;
+  width: 452px;
+}
+
+.element-easy-ways-to .image-4 {
+  height: 244px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 450px;
+}
+
+.element-easy-ways-to .propuesta-de-concept-6 {
+  color: var(--layout-gray-60);
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  left: 75px;
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  position: absolute;
+  text-align: center;
+  top: 252px;
+  white-space: nowrap;
+}
+
+.element-easy-ways-to .group-10 {
+  height: 334px;
+  left: 189px;
+  position: absolute;
+  top: 2327px;
+  width: 924px;
+}
+
+.element-easy-ways-to .propuesta-de-concept-7 {
+  color: transparent;
+  font-family: "Roboto", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.32px;
+  line-height: 24px;
+  position: relative;
+  width: 834px;
+}
+
+.element-easy-ways-to .span {
+  color: #9251f7;
+  font-weight: 600;
+}
+
+.element-easy-ways-to .text-wrapper-3 {
+  color: #5d86a7;
+}
+
+.element-easy-ways-to .group-11 {
+  height: 174px;
+  left: 189px;
+  position: absolute;
+  top: 3769px;
+  width: 924px;
+}

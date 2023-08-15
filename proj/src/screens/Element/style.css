@@ -1,0 +1,827 @@
+.element {
+  background-color: #fbfbfc;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.element .div {
+  background-color: #fbfbfc;
+  border: 1px none;
+  height: 949px;
+  position: relative;
+  width: 1280px;
+}
+
+.element .overlap {
+  height: 717px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.element .backgroundhero {
+  height: 555px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1280px;
+}
+
+.element .portfolio-of-UI-desi {
+  color: #5d86a7;
+  font-family: "Roboto", Helvetica;
+  font-size: 15px;
+  font-weight: 400;
+  left: 80px;
+  letter-spacing: 0.3px;
+  line-height: 21px;
+  position: absolute;
+  top: 236px;
+  width: 457px;
+}
+
+.element .p {
+  color: transparent;
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 80px;
+  letter-spacing: 0.28px;
+  line-height: 19.6px;
+  position: absolute;
+  top: 355px;
+}
+
+.element .text-wrapper {
+  color: #5d86a7;
+}
+
+.element .span {
+  color: #9251f7;
+}
+
+.element .logo-linkedin {
+  display: block;
+  height: 17px;
+  left: 1183px;
+  position: absolute;
+  top: 58px;
+  width: 17px;
+}
+
+.element .text-wrapper-2 {
+  color: #9251f7;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 1140px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 53px;
+  white-space: nowrap;
+}
+
+.element .agile-user-interface {
+  color: #25323c;
+  font-family: "Roboto", Helvetica;
+  font-size: 50px;
+  font-weight: 700;
+  left: 80px;
+  letter-spacing: -2px;
+  line-height: 70px;
+  position: absolute;
+  top: 162px;
+  white-space: nowrap;
+}
+
+.element .home {
+  background-color: #ffffff;
+  border-radius: 13.15px;
+  box-shadow: var(--shadows-black30);
+  height: 214px;
+  left: 810px;
+  overflow: hidden;
+  position: absolute;
+  top: 222px;
+  width: 247px;
+}
+
+.element .hola-andrew-listo-p {
+  color: #25323c;
+  font-family: "Roboto", Helvetica;
+  font-size: 15.8px;
+  font-weight: 700;
+  left: 77px;
+  letter-spacing: 0.16px;
+  line-height: normal;
+  position: absolute;
+  top: 145px;
+  white-space: nowrap;
+}
+
+.element .desaf-os {
+  color: #859fb3;
+  font-family: "Roboto", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 106px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 169px;
+  white-space: nowrap;
+}
+
+.element .overlap-group {
+  height: 96px;
+  left: 82px;
+  position: absolute;
+  top: 36px;
+  width: 84px;
+}
+
+.element .photo-wrapper {
+  background-image: url(../../../static/img/whatsapp-image-2022-04-10-at-17-01-45-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 42.09px;
+  box-shadow: 0px 10px 20px #003a6c21;
+  height: 84px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 84px;
+}
+
+.element .component-points-m {
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    rgb(225.95, 208.62, 252.88) 0%,
+    rgb(230.66, 253.94, 237.96) 64.06%,
+    rgb(213.52, 219.06, 247.56) 100%
+  );
+  border-radius: 65.77px;
+  box-shadow: 0px 5px 20px #fa766033;
+  display: inline-flex;
+  gap: 6.58px;
+  left: 17px;
+  padding: 5.92px 9.86px;
+  position: absolute;
+  top: 71px;
+}
+
+.element .text-wrapper-3 {
+  color: var(--black);
+  font-family: "Roboto", Helvetica;
+  font-size: 10.5px;
+  font-weight: 700;
+  height: 13.15px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -0.66px;
+  position: relative;
+  text-align: center;
+  width: 30.25px;
+}
+
+.element .frame {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: var(--shadows-black30);
+  display: inline-flex;
+  gap: 10px;
+  left: 1043px;
+  overflow: hidden;
+  padding: 16px 24px;
+  position: absolute;
+  top: 335px;
+}
+
+.element .group {
+  height: 21px;
+  position: relative;
+  width: 21px;
+}
+
+.element .text-wrapper-4 {
+  color: #5d86a7;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.element .frame-2 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: var(--shadows-black30);
+  display: inline-flex;
+  gap: 10px;
+  left: 766px;
+  overflow: hidden;
+  padding: 16px 24px;
+  position: absolute;
+  top: 147px;
+}
+
+.element .img {
+  height: 22px;
+  position: relative;
+  width: 22px;
+}
+
+.element .frame-3 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: var(--shadows-black30);
+  display: inline-flex;
+  gap: 10px;
+  left: 936px;
+  overflow: hidden;
+  padding: 16px 24px;
+  position: absolute;
+  top: 182px;
+}
+
+.element .group-2 {
+  height: 21px;
+  position: relative;
+  width: 12.19px;
+}
+
+.element .frame-4 {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: var(--shadows-black30);
+  display: inline-flex;
+  gap: 8px;
+  left: 659px;
+  overflow: hidden;
+  padding: 16px 24px;
+  position: absolute;
+  top: 311px;
+}
+
+.element .group-3 {
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.element .group-4 {
+  height: 30px;
+  left: 80px;
+  position: absolute;
+  top: 50px;
+  width: 271px;
+}
+
+.element .logo {
+  color: #19192e;
+  font-family: "Poppins", Helvetica;
+  font-size: 20px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: -0.8px;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+}
+
+.element .pill {
+  align-items: center;
+  background-color: #9251f71a;
+  border-radius: 179.47px;
+  display: inline-flex;
+  gap: 18px;
+  left: 137px;
+  padding: 6px 14px;
+  position: absolute;
+  top: 0;
+}
+
+.element .state {
+  color: #9251f7;
+  font-family: "Poppins", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.element .thumbnail {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: var(--shadows-black30);
+  height: 209px;
+  left: 80px;
+  overflow: hidden;
+  position: absolute;
+  top: 508px;
+  width: 357px;
+}
+
+.element .figma {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 4px 13.77px #003a6c0f;
+  height: 28px;
+  left: 20px;
+  position: absolute;
+  top: 161px;
+  width: 28px;
+}
+
+.element .figma-logo {
+  height: 14px;
+  left: 9px;
+  object-fit: cover;
+  position: absolute;
+  top: 7px;
+  width: 10px;
+}
+
+.element .mobile-native {
+  color: #19192e;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 20px;
+  letter-spacing: 0.32px;
+  line-height: 19.2px;
+  position: absolute;
+  top: 62px;
+  width: 149px;
+}
+
+.element .mobile-native-2 {
+  color: #859fb3;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 20px;
+  letter-spacing: 0.28px;
+  line-height: 16.8px;
+  position: absolute;
+  top: 89px;
+  width: 149px;
+}
+
+.element .mobile-native-3 {
+  color: var(--greengreen-positive-texts-green300);
+  font-family: "Poppins", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 20px;
+  letter-spacing: 0.24px;
+  line-height: 13.2px;
+  position: absolute;
+  top: 19px;
+  white-space: nowrap;
+}
+
+.element .overlap-2 {
+  height: 209px;
+  left: 169px;
+  position: absolute;
+  top: 0;
+  width: 188px;
+}
+
+.element .mask-group {
+  height: 119px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 188px;
+}
+
+.element .mask-group-2 {
+  height: 155px;
+  left: 63px;
+  position: absolute;
+  top: 54px;
+  width: 125px;
+}
+
+.element .thumbnail-2 {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: var(--shadows-black30);
+  height: 209px;
+  left: 461px;
+  overflow: hidden;
+  position: absolute;
+  top: 508px;
+  width: 358px;
+}
+
+.element .overlap-3 {
+  height: 209px;
+  left: 181px;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.element .mask-group-3 {
+  height: 108px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 177px;
+}
+
+.element .mask-group-4 {
+  height: 174px;
+  left: 54px;
+  position: absolute;
+  top: 35px;
+  width: 123px;
+}
+
+.element .overlap-wrapper {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: var(--shadows-black30);
+  height: 209px;
+  left: 843px;
+  overflow: hidden;
+  position: absolute;
+  top: 508px;
+  width: 357px;
+}
+
+.element .overlap-4 {
+  height: 531px;
+  left: 6px;
+  position: relative;
+  width: 351px;
+}
+
+.element .figma-2 {
+  height: 56px;
+  left: 0;
+  position: absolute;
+  top: 151px;
+  width: 56px;
+}
+
+.element .overlap-5 {
+  height: 531px;
+  left: 14px;
+  position: absolute;
+  top: 0;
+  width: 337px;
+}
+
+.element .mobile-native-4 {
+  color: #859fb3;
+  font-family: "Poppins", Helvetica;
+  font-size: 14px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0.28px;
+  line-height: 16.8px;
+  position: absolute;
+  top: 123px;
+  width: 149px;
+}
+
+.element .aside-wrapper {
+  height: 531px;
+  left: 135px;
+  position: absolute;
+  top: 0;
+  width: 202px;
+}
+
+.element .aside {
+  height: 531px;
+}
+
+.element .overlap-6 {
+  height: 531px;
+  position: relative;
+  width: 210px;
+}
+
+.element .container {
+  background-color: #ffffff;
+  height: 531px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 210px;
+}
+
+.element .overlap-7 {
+  height: 221px;
+  left: 72px;
+  position: absolute;
+  top: -146px;
+  width: 157px;
+}
+
+.element .rectangle {
+  background-color: var(--statusinfo);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 106px;
+  left: 48px;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 104px;
+}
+
+.element .rectangle-2 {
+  background-color: var(--statussuccess);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 121px;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 100px;
+  width: 108px;
+}
+
+.element .rectangle-3 {
+  background-color: var(--primarydefault);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 66px;
+  left: 98px;
+  opacity: 0.1;
+  position: absolute;
+  top: 152px;
+  width: 59px;
+}
+
+.element .rectangle-4 {
+  background-color: var(--secondarydefault);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 106px;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: -194px;
+  width: 66px;
+}
+
+.element .overlap-8 {
+  height: 245px;
+  left: 15px;
+  position: absolute;
+  top: 481px;
+  width: 221px;
+}
+
+.element .overlap-group-2 {
+  height: 175px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 189px;
+}
+
+.element .rectangle-5 {
+  background-color: var(--statusinfo);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 100px;
+  left: 72px;
+  opacity: 0.1;
+  position: absolute;
+  top: 0;
+  width: 117px;
+}
+
+.element .rectangle-6 {
+  background-color: var(--statussuccess);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 113px;
+  left: 0;
+  opacity: 0.1;
+  position: absolute;
+  top: 62px;
+  width: 78px;
+}
+
+.element .rectangle-7 {
+  background-color: var(--primarydefault);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 113px;
+  left: 119px;
+  opacity: 0.1;
+  position: absolute;
+  top: 132px;
+  width: 102px;
+}
+
+.element .rectangle-8 {
+  background-color: var(--secondarydefault);
+  border-radius: 100px;
+  box-shadow: var(--blur-large);
+  filter: blur(64px);
+  height: 216px;
+  left: 97px;
+  opacity: 0.1;
+  position: absolute;
+  top: 115px;
+  width: 117px;
+}
+
+.element .container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 531px;
+  left: 0;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  width: 180px;
+}
+
+.element .header {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.element .div-wrapper {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  margin-right: -8px;
+  position: relative;
+  width: 140px;
+}
+
+.element .text {
+  align-self: stretch;
+  flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.element .divider {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.element .div-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.element .row {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.element .text-2 {
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.element .mobile-native-5 {
+  color: #19192e;
+  font-family: "Poppins", Helvetica;
+  font-size: 16px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0.32px;
+  line-height: 19.2px;
+  position: absolute;
+  top: 62px;
+  width: 217px;
+}
+
+.element .mobile-native-6 {
+  color: #9251f7;
+  font-family: "Poppins", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  left: 14px;
+  letter-spacing: 0.24px;
+  line-height: 13.2px;
+  position: absolute;
+  top: 19px;
+  white-space: nowrap;
+}
+
+.element .footer {
+  background-color: transparent;
+  background-image: url(../../../static/img/rectangle-363.svg);
+  background-size: 100% 100%;
+  height: 125px;
+  left: 0;
+  position: absolute;
+  top: 824px;
+  width: 1280px;
+}
+
+.element .group-5 {
+  height: 80px;
+  left: 566px;
+  position: relative;
+  top: 22px;
+  width: 150px;
+}
+
+.element .galarchenko {
+  color: #516cf7;
+  font-family: "Roboto", Helvetica;
+  font-size: 12px;
+  font-weight: 300;
+  left: 0;
+  letter-spacing: 0.24px;
+  line-height: 16.8px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+}
+
+.element .group-6 {
+  height: 21px;
+  left: 49px;
+  position: absolute;
+  top: 59px;
+  width: 52px;
+}
+
+.element .logo-linkedin-2 {
+  background-image: url(../../../static/img/fill-1.svg);
+  background-size: 100% 100%;
+  height: 15px;
+  left: 35px;
+  position: absolute;
+  top: 5px;
+  width: 15px;
+}
+
+.element .text-wrapper-5 {
+  color: #516cf7;
+  font-family: "Roboto", Helvetica;
+  font-size: 18px;
+  font-weight: 700;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
