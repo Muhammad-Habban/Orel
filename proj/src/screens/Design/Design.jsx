@@ -125,22 +125,22 @@ export const Design = () => {
                       <img
                         className="identity-overview"
                         alt="Identity overview"
-                        src="/img/identity-overview.png"
+                        src="/img/identity - overview.png"
                       />
                       <img
                         className="identity-overview"
                         alt="Identity overview"
-                        src="/img/identity-overview.png"
+                        src="/img/identity - overview - hover.png"
                       />
                       <img
                         className="identity-overview"
                         alt="Identity overview"
-                        src="/img/identity-overview.png"
+                        src="/img/Dashboard1.png"
                       />
                       <img
                         className="identity-overview"
                         alt="Identity overview"
-                        src="/img/identity-overview.png"
+                        src="/img/Investigation Graph.png"
                       />
                     </Carousel>
                   </div>

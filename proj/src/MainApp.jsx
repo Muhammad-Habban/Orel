@@ -33,7 +33,6 @@ export default function MainApp() {
                   position: "relative",
                 }}
                 exit={{
-                  x: "0%",
                   y: "-10%",
                   position: "absolute",
 
