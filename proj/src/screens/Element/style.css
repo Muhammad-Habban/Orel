@@ -1,116 +1,119 @@
-.element {
-  background-color: #fbfbfc;
+.main-page {
+  background-color: #ffffff;
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 100%;
 }
 
-.element .div {
-  background-color: #fbfbfc;
+.main-page .div {
+  background-color: #ffffff;
   border: 1px none;
-  height: 949px;
+  height: 1024px;
+  overflow: hidden;
   position: relative;
-  width: 1280px;
+  width: 1440px;
 }
 
-.element .overlap {
-  height: 717px;
+.main-page .overlap {
+  height: 785px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1280px;
+  width: 1440px;
 }
 
-.element .backgroundhero {
-  height: 555px;
+.main-page .backgroundhero {
+  height: 608px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 1280px;
+  width: 1440px;
 }
 
-.element .portfolio-of-UI-desi {
+.main-page .portfolio-of-UI-desi {
   color: #5d86a7;
   font-family: "Roboto", Helvetica;
   font-size: 15px;
   font-weight: 400;
-  left: 80px;
+  left: 81px;
   letter-spacing: 0.3px;
   line-height: 21px;
   position: absolute;
-  top: 236px;
-  width: 457px;
+  top: 258px;
+  width: 558px;
 }
 
-.element .p {
+.main-page .p {
   color: transparent;
   font-family: "Roboto", Helvetica;
   font-size: 14px;
   font-weight: 400;
-  left: 80px;
+  left: 81px;
   letter-spacing: 0.28px;
   line-height: 19.6px;
   position: absolute;
-  top: 355px;
+  top: 350px;
+  width: 438px;
 }
 
-.element .text-wrapper {
+.main-page .text-wrapper {
   color: #5d86a7;
 }
 
-.element .span {
+.main-page .span {
   color: #9251f7;
 }
 
-.element .logo-linkedin {
+.main-page .logo-linkedin {
   display: block;
-  height: 17px;
-  left: 1183px;
+  height: 19px;
+  left: 1341px;
   position: absolute;
-  top: 58px;
-  width: 17px;
+  top: 63px;
+  width: 19px;
 }
 
-.element .text-wrapper-2 {
+.main-page .text-wrapper-2 {
   color: #9251f7;
   font-family: "Roboto", Helvetica;
   font-size: 18px;
   font-weight: 700;
-  left: 1140px;
+  left: 1293px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 53px;
-  white-space: nowrap;
+  top: 58px;
+  width: 21px;
 }
 
-.element .agile-user-interface {
+.main-page .agile-user-interface {
   color: #25323c;
   font-family: "Roboto", Helvetica;
   font-size: 50px;
   font-weight: 700;
-  left: 80px;
+  left: 81px;
   letter-spacing: -2px;
   line-height: 70px;
   position: absolute;
-  top: 162px;
+  top: 177px;
   white-space: nowrap;
+  width: 254px;
 }
 
-.element .home {
+.main-page .home {
   background-color: #ffffff;
   border-radius: 13.15px;
   box-shadow: var(--shadows-black30);
-  height: 214px;
-  left: 810px;
+  height: 234px;
+  left: 911px;
   overflow: hidden;
   position: absolute;
-  top: 222px;
-  width: 247px;
+  top: 243px;
+  width: 278px;
 }
 
-.element .hola-andrew-listo-p {
+.main-page .hola-andrew-listo-p {
   color: #25323c;
   font-family: "Roboto", Helvetica;
   font-size: 15.8px;
@@ -123,7 +126,7 @@
   white-space: nowrap;
 }
 
-.element .desaf-os {
+.main-page .desaf-os {
   color: #859fb3;
   font-family: "Roboto", Helvetica;
   font-size: 14px;
@@ -136,7 +139,7 @@
   white-space: nowrap;
 }
 
-.element .overlap-group {
+.main-page .overlap-group {
   height: 96px;
   left: 82px;
   position: absolute;
@@ -144,8 +147,8 @@
   width: 84px;
 }
 
-.element .photo-wrapper {
-  background-image: url(../../../static/img/whatsapp-image-2022-04-10-at-17-01-45-1.png);
+.main-page .photo-wrapper {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/97ed6f68fbfab55c9775962d3244e664/img/whatsapp-image-2022-04-10-at-17-01-45-1@2x.png);
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 42.09px;
@@ -157,7 +160,7 @@
   width: 84px;
 }
 
-.element .component-points-m {
+.main-page .component-points-m {
   align-items: center;
   background: linear-gradient(
     180deg,
@@ -175,7 +178,7 @@
   top: 71px;
 }
 
-.element .text-wrapper-3 {
+.main-page .element {
   color: var(--black);
   font-family: "Roboto", Helvetica;
   font-size: 10.5px;
@@ -189,107 +192,114 @@
   width: 30.25px;
 }
 
-.element .frame {
+.main-page .frame {
   align-items: center;
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: var(--shadows-black30);
-  display: inline-flex;
+  display: flex;
   gap: 10px;
-  left: 1043px;
+  height: 61px;
+  left: 1173px;
   overflow: hidden;
   padding: 16px 24px;
   position: absolute;
-  top: 335px;
+  top: 367px;
+  width: 186px;
 }
 
-.element .group {
+.main-page .group {
   height: 21px;
   position: relative;
   width: 21px;
 }
 
-.element .text-wrapper-4 {
+.main-page .text-wrapper-3 {
   color: #5d86a7;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
   font-weight: 400;
   letter-spacing: -0.48px;
   line-height: normal;
-  margin-top: -1px;
   position: relative;
   width: fit-content;
 }
 
-.element .frame-2 {
+.main-page .frame-2 {
   align-items: center;
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: var(--shadows-black30);
-  display: inline-flex;
+  display: flex;
   gap: 10px;
-  left: 766px;
+  height: 61px;
+  left: 862px;
   overflow: hidden;
   padding: 16px 24px;
   position: absolute;
-  top: 147px;
+  top: 161px;
+  width: 169px;
 }
 
-.element .img {
+.main-page .img {
   height: 22px;
   position: relative;
   width: 22px;
 }
 
-.element .frame-3 {
+.main-page .frame-3 {
   align-items: center;
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: var(--shadows-black30);
-  display: inline-flex;
+  display: flex;
   gap: 10px;
-  left: 936px;
+  height: 62px;
+  left: 1053px;
   overflow: hidden;
   padding: 16px 24px;
   position: absolute;
-  top: 182px;
+  top: 199px;
+  width: 202px;
 }
 
-.element .group-2 {
+.main-page .group-2 {
   height: 21px;
   position: relative;
   width: 12.19px;
 }
 
-.element .frame-4 {
+.main-page .frame-4 {
   align-items: center;
   background-color: #ffffff;
   border-radius: 16px;
   box-shadow: var(--shadows-black30);
-  display: inline-flex;
+  display: flex;
   gap: 8px;
-  left: 659px;
+  height: 62px;
+  left: 741px;
   overflow: hidden;
   padding: 16px 24px;
   position: absolute;
-  top: 311px;
+  top: 340px;
+  width: 215px;
 }
 
-.element .group-3 {
+.main-page .group-3 {
   height: 20px;
   position: relative;
   width: 20px;
 }
 
-.element .group-4 {
-  height: 30px;
-  left: 80px;
+.main-page .group-4 {
+  height: 33px;
+  left: 81px;
   position: absolute;
-  top: 50px;
-  width: 271px;
+  top: 55px;
+  width: 305px;
 }
 
-.element .logo {
+.main-page .logo {
   color: #19192e;
   font-family: "Poppins", Helvetica;
   font-size: 20px;
@@ -299,21 +309,24 @@
   line-height: normal;
   position: absolute;
   top: 0;
+  width: 136px;
 }
 
-.element .pill {
+.main-page .pill {
   align-items: center;
   background-color: #9251f71a;
   border-radius: 179.47px;
-  display: inline-flex;
+  display: flex;
   gap: 18px;
-  left: 137px;
+  height: 33px;
+  left: 154px;
   padding: 6px 14px;
   position: absolute;
   top: 0;
+  width: 148px;
 }
 
-.element .state {
+.main-page .state {
   color: #9251f7;
   font-family: "Poppins", Helvetica;
   font-size: 12px;
@@ -324,30 +337,36 @@
   width: fit-content;
 }
 
-.element .thumbnail {
+.main-page .thumbnail {
   background-color: #ffffff;
   border-radius: 6px;
   box-shadow: var(--shadows-black30);
-  height: 209px;
-  left: 80px;
+  height: 229px;
+  left: 81px;
   overflow: hidden;
   position: absolute;
-  top: 508px;
-  width: 357px;
+  top: 556px;
+  width: 410px;
+}
+.hoverDiv{
+  transition: all 300ms ease;
+}
+.hoverDiv:hover{
+  transform: translateY(-30px);
 }
 
-.element .figma {
+.main-page .figma {
   background-color: #ffffff;
   border-radius: 6px;
   box-shadow: 0px 4px 13.77px #003a6c0f;
   height: 28px;
-  left: 20px;
+  left: 24px;
   position: absolute;
-  top: 161px;
+  top: 186px;
   width: 28px;
 }
 
-.element .figma-logo {
+.main-page .figma-logo {
   height: 14px;
   left: 9px;
   object-fit: cover;
@@ -356,7 +375,7 @@
   width: 10px;
 }
 
-.element .mobile-native {
+.main-page .mobile-native {
   color: #19192e;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -369,7 +388,7 @@
   width: 149px;
 }
 
-.element .mobile-native-2 {
+.main-page .mobile-native-2 {
   color: #859fb3;
   font-family: "Poppins", Helvetica;
   font-size: 14px;
@@ -382,7 +401,7 @@
   width: 149px;
 }
 
-.element .mobile-native-3 {
+.main-page .mobile-native-3 {
   color: var(--greengreen-positive-texts-green300);
   font-family: "Poppins", Helvetica;
   font-size: 12px;
@@ -395,102 +414,102 @@
   white-space: nowrap;
 }
 
-.element .overlap-2 {
-  height: 209px;
+.main-page .overlap-2 {
+  height: 229px;
   left: 169px;
   position: absolute;
   top: 0;
-  width: 188px;
+  width: 241px;
 }
 
-.element .mask-group {
+.main-page .mask-group {
   height: 119px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 188px;
+  width: 241px;
 }
 
-.element .mask-group-2 {
-  height: 155px;
+.main-page .mask-group-2 {
+  height: 175px;
   left: 63px;
   position: absolute;
   top: 54px;
-  width: 125px;
+  width: 178px;
 }
 
-.element .thumbnail-2 {
+.main-page .thumbnail-2 {
   background-color: #ffffff;
   border-radius: 6px;
   box-shadow: var(--shadows-black30);
-  height: 209px;
-  left: 461px;
+  height: 229px;
+  left: 515px;
   overflow: hidden;
   position: absolute;
-  top: 508px;
-  width: 358px;
+  top: 556px;
+  width: 410px;
 }
 
-.element .overlap-3 {
-  height: 209px;
+.main-page .overlap-3 {
+  height: 217px;
   left: 181px;
   position: absolute;
   top: 0;
-  width: 177px;
+  width: 229px;
 }
 
-.element .mask-group-3 {
+.main-page .mask-group-3 {
   height: 108px;
   left: 0;
   position: absolute;
   top: 0;
-  width: 177px;
+  width: 215px;
 }
 
-.element .mask-group-4 {
-  height: 174px;
+.main-page .mask-group-4 {
+  height: 182px;
   left: 54px;
   position: absolute;
   top: 35px;
-  width: 123px;
+  width: 175px;
 }
 
-.element .overlap-wrapper {
+.main-page .overlap-wrapper {
   background-color: #ffffff;
   border-radius: 6px;
   box-shadow: var(--shadows-black30);
-  height: 209px;
-  left: 843px;
+  height: 229px;
+  left: 949px;
   overflow: hidden;
   position: absolute;
-  top: 508px;
-  width: 357px;
+  top: 556px;
+  width: 411px;
 }
 
-.element .overlap-4 {
+.main-page .overlap-4 {
   height: 531px;
-  left: 6px;
+  left: 11px;
   position: relative;
-  width: 351px;
+  width: 391px;
 }
 
-.element .figma-2 {
-  height: 56px;
+.main-page .figma-2 {
+  height: 53px;
   left: 0;
   position: absolute;
-  top: 151px;
+  top: 176px;
   width: 56px;
 }
 
-.element .overlap-5 {
+.main-page .overlap-5 {
   height: 531px;
-  left: 14px;
+  left: 9px;
   position: absolute;
   top: 0;
-  width: 337px;
+  width: 382px;
 }
 
-.element .mobile-native-4 {
+.main-page .mobile-native-4 {
   color: #859fb3;
   font-family: "Poppins", Helvetica;
   font-size: 14px;
@@ -499,39 +518,39 @@
   letter-spacing: 0.28px;
   line-height: 16.8px;
   position: absolute;
-  top: 123px;
+  top: 108px;
   width: 149px;
 }
 
-.element .aside-wrapper {
+.main-page .aside-wrapper {
   height: 531px;
   left: 135px;
   position: absolute;
   top: 0;
-  width: 202px;
+  width: 247px;
 }
 
-.element .aside {
+.main-page .aside {
   height: 531px;
 }
 
-.element .overlap-6 {
+.main-page .overlap-6 {
   height: 531px;
   position: relative;
-  width: 210px;
+  width: 255px;
 }
 
-.element .container {
+.main-page .container {
   background-color: #ffffff;
   height: 531px;
   left: 0;
   overflow: hidden;
   position: absolute;
   top: 0;
-  width: 210px;
+  width: 255px;
 }
 
-.element .overlap-7 {
+.main-page .overlap-7 {
   height: 221px;
   left: 72px;
   position: absolute;
@@ -539,7 +558,7 @@
   width: 157px;
 }
 
-.element .rectangle {
+.main-page .rectangle {
   background-color: var(--statusinfo);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -552,7 +571,7 @@
   width: 104px;
 }
 
-.element .rectangle-2 {
+.main-page .rectangle-2 {
   background-color: var(--statussuccess);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -565,7 +584,7 @@
   width: 108px;
 }
 
-.element .rectangle-3 {
+.main-page .rectangle-3 {
   background-color: var(--primarydefault);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -578,7 +597,7 @@
   width: 59px;
 }
 
-.element .rectangle-4 {
+.main-page .rectangle-4 {
   background-color: var(--secondarydefault);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -591,7 +610,7 @@
   width: 66px;
 }
 
-.element .overlap-8 {
+.main-page .overlap-8 {
   height: 245px;
   left: 15px;
   position: absolute;
@@ -599,7 +618,7 @@
   width: 221px;
 }
 
-.element .overlap-group-2 {
+.main-page .overlap-group-2 {
   height: 175px;
   left: 0;
   position: absolute;
@@ -607,7 +626,7 @@
   width: 189px;
 }
 
-.element .rectangle-5 {
+.main-page .rectangle-5 {
   background-color: var(--statusinfo);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -620,7 +639,7 @@
   width: 117px;
 }
 
-.element .rectangle-6 {
+.main-page .rectangle-6 {
   background-color: var(--statussuccess);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -633,7 +652,7 @@
   width: 78px;
 }
 
-.element .rectangle-7 {
+.main-page .rectangle-7 {
   background-color: var(--primarydefault);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -646,7 +665,7 @@
   width: 102px;
 }
 
-.element .rectangle-8 {
+.main-page .rectangle-8 {
   background-color: var(--secondarydefault);
   border-radius: 100px;
   box-shadow: var(--blur-large);
@@ -659,7 +678,7 @@
   width: 117px;
 }
 
-.element .container-2 {
+.main-page .container-2 {
   align-items: flex-start;
   display: flex;
   flex-direction: column;
@@ -672,7 +691,7 @@
   width: 180px;
 }
 
-.element .header {
+.main-page .header {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -684,7 +703,7 @@
   width: 100%;
 }
 
-.element .div-wrapper {
+.main-page .div-wrapper {
   align-items: flex-start;
   display: flex;
   flex: 0 0 auto;
@@ -696,21 +715,21 @@
   width: 140px;
 }
 
-.element .text {
+.main-page .text {
   align-self: stretch;
   flex: 0 0 auto;
   position: relative;
   width: 100%;
 }
 
-.element .divider {
+.main-page .divider {
   align-self: stretch;
   height: 1px;
   position: relative;
   width: 100%;
 }
 
-.element .div-2 {
+.main-page .div-2 {
   align-items: flex-start;
   align-self: stretch;
   display: flex;
@@ -721,7 +740,7 @@
   width: 100%;
 }
 
-.element .row {
+.main-page .row {
   align-items: center;
   align-self: stretch;
   display: flex;
@@ -731,13 +750,13 @@
   width: 100%;
 }
 
-.element .text-2 {
+.main-page .text-2 {
   flex: 1;
   flex-grow: 1;
   position: relative;
 }
 
-.element .mobile-native-5 {
+.main-page .mobile-native-5 {
   color: #19192e;
   font-family: "Poppins", Helvetica;
   font-size: 16px;
@@ -747,15 +766,15 @@
   line-height: 19.2px;
   position: absolute;
   top: 62px;
-  width: 217px;
+  width: 315px;
 }
 
-.element .mobile-native-6 {
+.main-page .mobile-native-6 {
   color: #9251f7;
   font-family: "Poppins", Helvetica;
   font-size: 12px;
   font-weight: 500;
-  left: 14px;
+  left: 9px;
   letter-spacing: 0.24px;
   line-height: 13.2px;
   position: absolute;
@@ -763,26 +782,31 @@
   white-space: nowrap;
 }
 
-.element .footer {
+.main-page .footer {
   background-color: transparent;
-  background-image: url(../../../static/img/rectangle-363.svg);
-  background-size: 100% 100%;
-  height: 125px;
+  height: 137px;
   left: 0;
   position: absolute;
-  top: 824px;
-  width: 1280px;
+  top: 902px;
+  width: 1440px;
 }
 
-.element .group-5 {
+.main-page .group-wrapper {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/97ed6f68fbfab55c9775962d3244e664/img/rectangle-363.svg);
+  background-size: 100% 100%;
+  height: 122px;
+  width: 1440px;
+}
+
+.main-page .group-5 {
   height: 80px;
-  left: 566px;
+  left: 646px;
   position: relative;
   top: 22px;
   width: 150px;
 }
 
-.element .galarchenko {
+.main-page .galarchenko {
   color: #516cf7;
   font-family: "Roboto", Helvetica;
   font-size: 12px;
@@ -795,7 +819,7 @@
   top: 0;
 }
 
-.element .group-6 {
+.main-page .group-6 {
   height: 21px;
   left: 49px;
   position: absolute;
@@ -803,8 +827,8 @@
   width: 52px;
 }
 
-.element .logo-linkedin-2 {
-  background-image: url(../../../static/img/fill-1.svg);
+.main-page .logo-linkedin-2 {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/97ed6f68fbfab55c9775962d3244e664/img/fill-1.svg);
   background-size: 100% 100%;
   height: 15px;
   left: 35px;
@@ -813,7 +837,7 @@
   width: 15px;
 }
 
-.element .text-wrapper-5 {
+.main-page .text-wrapper-4 {
   color: #516cf7;
   font-family: "Roboto", Helvetica;
   font-size: 18px;

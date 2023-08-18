@@ -521,7 +521,7 @@ export const QueryBuilder = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 />
-                <div className="text-wrapper-9">cv</div>
+                <a  href="/CV/cv.pdf" target="_blank" className="text-wrapper-9">cv</a>
               </div>
             </div>
           </div>

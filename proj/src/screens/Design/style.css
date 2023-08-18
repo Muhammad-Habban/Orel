@@ -7,7 +7,7 @@
 html,
 body {
   margin: 0px;
-  height: 100%;
+  /* height: 100%; */
 }
 a {
   text-decoration: none;
@@ -153,6 +153,14 @@ a {
   top: 0;
   width: 248px;
 }
+.hover_btn_carousel{
+  transition: all 300ms ease;
+  position: relative;
+  bottom: -10px;
+}
+.hover_btn_carousel:hover{
+  background-color: #AE87EA !important;
+}
 
 .design .frame-2 {
   align-items: flex-start;
@@ -241,7 +249,6 @@ a {
 }
 
 .design .overlap-group {
-  height: 467px;
   left: 0;
   position: absolute;
   top: 184px;
@@ -249,7 +256,7 @@ a {
 }
 .video_mov{
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
 }
 
@@ -321,6 +328,7 @@ a {
 
 .design .text-wrapper-2 {
   color: #19192e;
+
   font-size: 32px;
   letter-spacing: -1.28px;
 }
@@ -343,9 +351,9 @@ a {
   position: relative;
 }
 .carousel{
-  height: 570px;
-  position: relative;
+  position: absolute;
   width: 844px;
+  height: 544px;
 }
 
 .identity-overview {
@@ -388,7 +396,6 @@ a {
 }
 
 .design .group-5 {
-  height: 215px;
   margin-right: -4px;
   position: relative;
   width: 848px;
@@ -402,8 +409,6 @@ a {
   left: 0;
   letter-spacing: -0.96px;
   line-height: 42px;
-  position: absolute;
-  top: 0;
   width: 499px;
 }
 
@@ -412,16 +417,16 @@ a {
   font-family: "Roboto", Helvetica;
   font-size: 14px;
   font-weight: 400;
+  margin-top: 20px;
   left: 0;
   letter-spacing: -0.28px;
   line-height: 19.6px;
-  position: absolute;
-  top: 95px;
   width: 844px;
 }
 
 .design .img {
-  height: 384px;
+  margin-top: 20px;
+  height: 354px;
   object-fit: cover;
   position: relative;
   width: 844px;

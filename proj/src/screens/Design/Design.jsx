@@ -105,10 +105,11 @@ export const Design = () => {
                               margin:"0px 10px",
                               lineHeight:"0px",
                               borderRadius:"50%",
-                              position:"relative",
                               bottom:"20px",
                               zIndex:"10",
+                              cursor:"pointer"
                             }}
+                            className="hover_btn_carousel"
                             onClick={onClickHandler}
                             onKeyDown={onClickHandler}
                             value={index}
@@ -122,11 +123,6 @@ export const Design = () => {
                         );
                       }}
                     >
-                      <img
-                        className="identity-overview"
-                        alt="Identity overview"
-                        src="/img/identity - overview.png"
-                      />
                       <img
                         className="identity-overview"
                         alt="Identity overview"
@@ -147,7 +143,7 @@ export const Design = () => {
                   <div className="group-5">
                     <p className="what-people-are-sayi-3">
                       <span className="span">
-                        Building a User-Friendly Design System:{" "}
+                        Building a User-Friendly Design System: <br />
                       </span>
                       <span className="text-wrapper-2">
                         My Research Journey
@@ -471,7 +467,7 @@ export const Design = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 />
-                <div className="text-wrapper-3">cv</div>
+                <a  href="/CV/cv.pdf" target="_blank" className="text-wrapper-3">cv</a>
               </div>
             </div>
           </div>

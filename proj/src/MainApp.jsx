@@ -33,7 +33,8 @@ export default function MainApp() {
                   position: "relative",
                 }}
                 exit={{
-                  y: "-10%",
+                  y: "0%",
+                  x:"-100%",
                   position: "absolute",
 
                   transition: {
@@ -50,8 +51,8 @@ export default function MainApp() {
             element={
               <motion.div
                 initial={{
-                  y: "110vh",
-                  x: "0%",
+                  y: "0%",
+                  x: "110%",
                   position: "absolute",
                 }}
                 animate={{
@@ -76,8 +77,8 @@ export default function MainApp() {
             element={
               <motion.div
                 initial={{
-                  y: "110vh",
-                  x: "0%",
+                  y: "0%",
+                  x: "110%",
                   position: "absolute",
                 }}
                 animate={{
@@ -97,8 +98,8 @@ export default function MainApp() {
             element={
               <motion.div
                 initial={{
-                  y: "110vh",
-                  x: "0%",
+                  y: "0px",
+                  x: "110%",
                   position: "absolute",
                 }}
                 animate={{
