@@ -13,9 +13,11 @@ export const Element = () => {
             src="https://generation-sessions.s3.amazonaws.com/97ed6f68fbfab55c9775962d3244e664/img/backgroundhero-gradienttop.svg"
           />
           <p className="portfolio-of-UI-desi">
-            With a passion for solving complex problems and a natural ability to understand and anticipate user needs, I
-            have established myself as a skilled product designer. My strong communication skills allow me to clearly
-            articulate my design vision and collaborate effectively with cross-functional teams.
+            With a passion for solving complex problems and a natural ability to
+            understand and anticipate user needs, I have established myself as a
+            skilled product designer. My strong communication skills allow me to
+            clearly articulate my design vision and collaborate effectively with
+            cross-functional teams.
           </p>
           <p className="p">
             <span className="text-wrapper">
@@ -25,14 +27,20 @@ export const Element = () => {
             </span>
             <span className="span">Authomize</span>
           </p>
-          <a href="https://www.linkedin.com/in/orel-shmueli/" rel="noopener noreferrer" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/orel-shmueli/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             <img
               className="logo-linkedin"
               alt="Logo linkedin"
               src="https://generation-sessions.s3.amazonaws.com/97ed6f68fbfab55c9775962d3244e664/img/logo-linkedin.svg"
             />
           </a>
-          <a href="/CV/cv.pdf" target="_blank" className="text-wrapper-2">cv</a>
+          <a href="/CV/cv.pdf" target="_blank" className="text-wrapper-2">
+            cv
+          </a>
           <div className="agile-user-interface">Hi, I’m Orel</div>
           <div className="home">
             <div className="hola-andrew-listo-p">Orel Shmueli</div>
@@ -207,7 +215,9 @@ export const Element = () => {
                     </div>
                   </div>
                 </div>
-                <p className="mobile-native-5">3 easy ways to improve your designer-developer collaboration</p>
+                <p className="mobile-native-5">
+                  3 easy ways to improve your designer-developer collaboration
+                </p>
               </div>
               <div className="mobile-native-6">Article</div>
             </div>
@@ -230,7 +240,9 @@ export const Element = () => {
                   rel="noopener noreferrer"
                   target="_blank"
                 />
-                <a href="/CV/cv.pdf" target="_blank" className="text-wrapper-4">cv</a>
+                <a href="/CV/cv.pdf" target="_blank" className="text-wrapper-4">
+                  cv
+                </a>
               </div>
             </div>
           </div>
