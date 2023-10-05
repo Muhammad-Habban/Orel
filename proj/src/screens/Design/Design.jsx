@@ -496,333 +496,361 @@ export const Design = () => {
           </footer>
         </div>
       </motion.div> */}
-      <motion.div className="Design-query-builder-2">
-        <div className="Design-over-query-builder">
-          <div className="Design-first-divison Design-first-part">
-            <div className="Design-prod-p">
-              <p>Product Designer</p>
-            </div>
-            <div className="Design-heading-query">
-              <h1>Design System</h1>
-            </div>
-            <div className="Design-q-para">
-              A design system is a set of guidelines and standards that define
-              the visual and functional elements of the product. Having a design
-              system is important because it ensures consistency and coherence
-              across all aspects of the product.
-            </div>
-            <div className="Design-small-p">
-              <p>Worked on this project</p>
-            </div>
-            <div className="Design-grid-one">
-              <div className="Design-purple-divs Design-m-5">
-                Product Designer
+      <motion.div className="footer-outer-div">
+        <div className="Design-outer-div">
+          <div className="first-inner-div">
+            <Link to="/">
+              <img
+                className="back-sign-btn"
+                alt="Btn Sign"
+                src="/img/btn-sign.png"
+              />
+            </Link>
+          </div>
+          <div className="Design-query-builder-2">
+            <div className="Design-over-query-builder">
+              <div className="Design-first-divison Design-first-part">
+                <div className="Design-prod-p">
+                  <p>Product Designer</p>
+                </div>
+                <div className="Design-heading-query">
+                  <h1>Design System</h1>
+                </div>
+                <div className="Design-q-para">
+                  A design system is a set of guidelines and standards that
+                  define the visual and functional elements of the product.
+                  Having a design system is important because it ensures
+                  consistency and coherence across all aspects of the product.
+                </div>
+                <div className="Design-small-p">
+                  <p>Worked on this project</p>
+                </div>
+                <div className="Design-grid-one">
+                  <div className="Design-purple-divs Design-m-5">
+                    Product Designer
+                  </div>
+                  <div className="Design-purple-divs">Frontend Developer</div>
+                </div>
               </div>
-              <div className="Design-purple-divs">Frontend Developer</div>
+              <div className="Design-first-divison Design-second-part">
+                <img
+                  className="Design-inven"
+                  src="/img/screen-shot-2023-01-23-at-12-24-1.png"
+                  alt="#"
+                />
+              </div>
             </div>
-          </div>
-          <div className="Design-first-divison Design-second-part">
-            <img
-              className="Design-inven"
-              src="/img/screen-shot-2023-01-23-at-12-24-1.png"
-              alt="#"
-            />
-          </div>
-        </div>
-        <div className="Design-second-division">
-          <div className="Design-overview-h">
-            <h1>Overview</h1>
-          </div>
-          <div className="Design-big-para">
-            One of my most notable projects as a product designer was building a
-            comprehensive design system from scratch for Authomize, a startup
-            company. I utilized Figma's advanced features to create a
-            user-friendly and easily navigable system, aimed at promoting
-            consistency in design and facilitating communication with the
-            front-end development team. This ongoing project has been in
-            development for approximately a year, and I continue to make
-            improvements and add new elements to it all the time.
-          </div>
-        </div>
-        <div className="Design-third-division">
-          <video autoPlay muted loop className="Design-video_mov">
-            <source src="/videos/Design system.mp4" type="video/mp4" />
-          </video>
-        </div>
-        <div className="section-for-carousel">
-          <div className="Design-blue-h">the Platform</div>
-          <div className="Design-newBlack-h">a few pages designs</div>
-          <div className="Design-carousel">
-            <Carousel
-              className="carousel"
-              autoPlay={true}
-              infiniteLoop={true}
-              showThumbs={false}
-              showStatus={false}
-              showIndicators={true}
-              showArrows={false}
-              renderIndicator={(onClickHandler, isSelected, index, label) => {
-                return (
-                  <span
-                    style={{
-                      padding: "0px 9px",
-                      backgroundColor: isSelected ? "#9251f7" : "#c8acf3",
-                      margin: "0px 10px",
-                      lineHeight: "0px",
-                      borderRadius: "50%",
-                      bottom: "20px",
-                      zIndex: "10",
-                      cursor: "pointer",
-                    }}
-                    className="hover_btn_carousel"
-                    onClick={onClickHandler}
-                    onKeyDown={onClickHandler}
-                    value={index}
-                    key={index}
-                    role="button"
-                    tabIndex={0}
-                    aria-label={`${label} ${index + 1}`}
-                  ></span>
-                );
-              }}
-            >
-              <img
-                className="Design-c-img"
-                alt="Identity overview"
-                src="/img/identity - overview - hover.png"
-              />
-              <img
-                className="Design-c-img"
-                alt="Identity overview"
-                src="/img/Dashboard1.png"
-              />
-              <img
-                className="Design-c-img"
-                alt="Identity overview"
-                src="/img/Investigation Graph.png"
-              />
-            </Carousel>
-          </div>
-        </div>
-        <div className="Design-col-content">
-          <div className="Design-blue-h">
-            Building a User-Friendly Design System:
-          </div>
-          <div className="Design-newBlack-h">My Research Journey</div>
-          <div className="Design-big-para">
-            As a product designer, I was keen on building a comprehensive design
-            system that would help streamline the design process and promote
-            consistency across the company's products. In order to learn best
-            practices for building a design system, I did my research by reading
-            multiple articles and watching Figma's official tutorials. This
-            research helped me to understand the importance of using Figma's
-            advanced features in creating a user-friendly and easily navigable
-            system. The tutorials and articles provided me with an in-depth
-            understanding of how to use Figma's features to create a design
-            system that is both functional and visually appealing. This research
-            helped me to develop a clear understanding of what features I needed
-            to include in my design system in order to make it easy to use and
-            navigate for the team.
-          </div>
-          <div className="new-img">
-            <img
-              src="/img/frame-1-9.png"
-              alt="Frame-image"
-              className="frame-img"
-            />
-          </div>
-        </div>
-        <div className="Design-col-content">
-          <div className="Design-blue-h">
-            Deciding which design elements we need:
-          </div>
-          <div className="Design-newBlack-h">Components Library</div>
-          <div className="Design-big-para">
-            The choice of components for the design system was a deliberate
-            process, taking into consideration the complexity of Authomize's
-            product. I began by identifying the key design elements that were
-            necessary to effectively present the product's data and
-            functionality. The selection of components was also done by taking
-            into account the user experience, keeping in mind usability and
-            accessibility, making sure that the design system is inclusive for
-            all users. Here is a list of the pages we have in the design system
-            today:
-          </div>
-          <div className="comp-grid">
-            <div className="bg-design col">Colors</div>
-            <div className="bg-design Typography">Typography</div>
-            <div className="bg-design Alerts">Alerts</div>
-            <div className="bg-design Buttons">Buttons</div>
-            <div className="bg-design Charts">Charts</div>
-            <div className="bg-design Error">Error \ Empty Pages</div>
-            <div className="bg-design Icons">Icons</div>
-            <div className="bg-design Text">Text Inputs</div>
-            <div className="bg-design Drop-downs">Drop-downs</div>
-            <div className="bg-design Filters">Filters</div>
-            <div className="bg-design Labels">Labels</div>
-            <div className="bg-design Menus">Menus</div>
-            <div className="bg-design Tables">Tables</div>
-            <div className="bg-design Tabs">Tabs</div>
-            <div className="bg-design Spaces">Spaces</div>
-            <div className="bg-design Logos">Logos</div>
-            <div className="bg-design Grids">Grids</div>
-            <div className="bg-design Modals">Modals</div>
-            <div className="bg-design Identities">
-              Identities \ Assets components
+            <div className="Design-second-division Design-mar-left">
+              <div className="Design-overview-h">
+                <h1>Overview</h1>
+              </div>
+              <div className="Design-big-para">
+                One of my most notable projects as a product designer was
+                building a comprehensive design system from scratch for
+                Authomize, a startup company. I utilized Figma's advanced
+                features to create a user-friendly and easily navigable system,
+                aimed at promoting consistency in design and facilitating
+                communication with the front-end development team. This ongoing
+                project has been in development for approximately a year, and I
+                continue to make improvements and add new elements to it all the
+                time.
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="Design-col-content">
-          <div className="Design-blue-h">Here are some of them in detail:</div>
-          <div className="Design-newBlack-h">Buttons</div>
-          <div className="Design-big-para">
-            The button component of the design system is a standout feature,
-            offering four levels of hierarchy to meet a variety of design needs.
-            The different states and behaviors of the buttons are clearly
-            displayed, making it easy for users to understand and apply the
-            appropriate button for their design. One unique aspect of this
-            design system is the ability to change the state of a button within
-            the design itself, allowing for instant updates and improved
-            efficiency. Additionally, the system includes functionalities for
-            links and icons, providing a comprehensive solution for all
-            button-related design needs. Overall, this design system's button
-            component is user-friendly, versatile, and streamlined.
-          </div>
-          <div className="image-flex">
-            <div className="img-flex-1">
-              <img
-                src="/img/mask-group-3.png"
-                alt="Mask-Group"
-                className="Design-one"
-              />
+            <div className="Design-third-division Design-mar-left">
+              <video autoPlay muted loop className="Design-video_mov">
+                <source src="/videos/Design system.mp4" type="video/mp4" />
+              </video>
             </div>
-            <div className="img-flex-2">
-              <img
-                src="/img/screen-shot-2023-01-23-at-12-29.png"
-                alt="Button-Image"
-                className="Design-two"
-              />
+            <div className="section-for-carousel Design-mar-left">
+              <div className="Design-blue-h lil-mar">the Platform</div>
+              <div className="Design-newBlack-h">a few pages designs</div>
+              <div className="Design-carousel">
+                <Carousel
+                  className="carousel"
+                  autoPlay={true}
+                  infiniteLoop={true}
+                  showThumbs={false}
+                  showStatus={false}
+                  showIndicators={true}
+                  showArrows={false}
+                  renderIndicator={(
+                    onClickHandler,
+                    isSelected,
+                    index,
+                    label
+                  ) => {
+                    return (
+                      <span
+                        style={{
+                          padding: "0px 9px",
+                          backgroundColor: isSelected ? "#9251f7" : "#c8acf3",
+                          margin: "0px 10px",
+                          lineHeight: "0px",
+                          borderRadius: "50%",
+                          bottom: "20px",
+                          zIndex: "10",
+                          cursor: "pointer",
+                        }}
+                        className="hover_btn_carousel"
+                        onClick={onClickHandler}
+                        onKeyDown={onClickHandler}
+                        value={index}
+                        key={index}
+                        role="button"
+                        tabIndex={0}
+                        aria-label={`${label} ${index + 1}`}
+                      ></span>
+                    );
+                  }}
+                >
+                  <img
+                    className="Design-c-img"
+                    alt="Identity overview"
+                    src="/img/identity - overview - hover.png"
+                  />
+                  <img
+                    className="Design-c-img"
+                    alt="Identity overview"
+                    src="/img/Dashboard1.png"
+                  />
+                  <img
+                    className="Design-c-img"
+                    alt="Identity overview"
+                    src="/img/Investigation Graph.png"
+                  />
+                </Carousel>
+              </div>
             </div>
-          </div>
+            <div className="Design-col-content Design-mar-left">
+              <div className="Design-blue-h">
+                Building a User-Friendly Design System:
+              </div>
+              <div className="Design-newBlack-h">My Research Journey</div>
+              <div className="Design-big-para">
+                As a product designer, I was keen on building a comprehensive
+                design system that would help streamline the design process and
+                promote consistency across the company's products. In order to
+                learn best practices for building a design system, I did my
+                research by reading multiple articles and watching Figma's
+                official tutorials. This research helped me to understand the
+                importance of using Figma's advanced features in creating a
+                user-friendly and easily navigable system. The tutorials and
+                articles provided me with an in-depth understanding of how to
+                use Figma's features to create a design system that is both
+                functional and visually appealing. This research helped me to
+                develop a clear understanding of what features I needed to
+                include in my design system in order to make it easy to use and
+                navigate for the team.
+              </div>
+              <div className="new-img">
+                <img
+                  src="/img/frame-1-9.png"
+                  alt="Frame-image"
+                  className="frame-img"
+                />
+              </div>
+            </div>
+            <div className="Design-col-content Design-mar-left">
+              <div className="Design-blue-h">
+                Deciding which design elements we need:
+              </div>
+              <div className="Design-newBlack-h">Components Library</div>
+              <div className="Design-big-para">
+                The choice of components for the design system was a deliberate
+                process, taking into consideration the complexity of Authomize's
+                product. I began by identifying the key design elements that
+                were necessary to effectively present the product's data and
+                functionality. The selection of components was also done by
+                taking into account the user experience, keeping in mind
+                usability and accessibility, making sure that the design system
+                is inclusive for all users. Here is a list of the pages we have
+                in the design system today:
+              </div>
+              <div className="comp-grid">
+                <div className="bg-design col">Colors</div>
+                <div className="bg-design Typography">Typography</div>
+                <div className="bg-design Alerts">Alerts</div>
+                <div className="bg-design Buttons">Buttons</div>
+                <div className="bg-design Charts">Charts</div>
+                <div className="bg-design Error">Error \ Empty Pages</div>
+                <div className="bg-design Icons">Icons</div>
+                <div className="bg-design Text">Text Inputs</div>
+                <div className="bg-design Drop-downs">Drop-downs</div>
+                <div className="bg-design Filters">Filters</div>
+                <div className="bg-design Labels">Labels</div>
+                <div className="bg-design Menus">Menus</div>
+                <div className="bg-design Tables">Tables</div>
+                <div className="bg-design Tabs">Tabs</div>
+                <div className="bg-design Spaces">Spaces</div>
+                <div className="bg-design Logos">Logos</div>
+                <div className="bg-design Grids">Grids</div>
+                <div className="bg-design Modals">Modals</div>
+                <div className="bg-design Identities">
+                  Identities \ Assets components
+                </div>
+              </div>
+            </div>
+            <div className="Design-col-content Design-mar-left">
+              <div className="Design-blue-h">
+                Here are some of them in detail:
+              </div>
+              <div className="Design-newBlack-h">Buttons</div>
+              <div className="Design-big-para">
+                The button component of the design system is a standout feature,
+                offering four levels of hierarchy to meet a variety of design
+                needs. The different states and behaviors of the buttons are
+                clearly displayed, making it easy for users to understand and
+                apply the appropriate button for their design. One unique aspect
+                of this design system is the ability to change the state of a
+                button within the design itself, allowing for instant updates
+                and improved efficiency. Additionally, the system includes
+                functionalities for links and icons, providing a comprehensive
+                solution for all button-related design needs. Overall, this
+                design system's button component is user-friendly, versatile,
+                and streamlined.
+              </div>
+              <div className="image-flex">
+                <div className="img-flex-1">
+                  <img
+                    src="/img/mask-group-3.png"
+                    alt="Mask-Group"
+                    className="Design-one"
+                  />
+                </div>
+                <div className="img-flex-2">
+                  <img
+                    src="/img/screen-shot-2023-01-23-at-12-29.png"
+                    alt="Button-Image"
+                    className="Design-two"
+                  />
+                </div>
+              </div>
 
-          <div className="Design-newBlack-h">Tables</div>
-          <div className="Design-big-para">
-            The tables page in the design system is an essential component, as
-            Authomize's product is a complex system that heavily relies on
-            tables to present data. I approached this design by using atoms for
-            different parameters such as date, status, and name, and then built
-            smart columns and tables to make it easy to adjust the table to
-            specific design needs. One of the key features of this design is the
-            ability to easily adjust the columns size, making it easy to create
-            tables that are both functional and visually appealing. The
-            component is designed to be flexible and adaptable, ensuring that it
-            can meet the various design needs of the different tables within the
-            Authomize product. This tables page is user-friendly and provides a
-            comprehensive solution for all table-related design needs.
-          </div>
-          <div className="image-flex">
-            <div className="img-flex-1">
-              <img
-                src="/img/screen-shot-2023-01-23-at-12-37.png"
-                alt="Mask-Group"
-                className="Design-one"
-              />
-            </div>
-            <div className="img-flex-2">
-              <img
-                src="/img/mask-group-2.png"
-                alt="Button-Image"
-                className="Design-two"
-              />
-            </div>
-          </div>
+              <div className="Design-newBlack-h-2">Tables</div>
+              <div className="Design-big-para">
+                The tables page in the design system is an essential component,
+                as Authomize's product is a complex system that heavily relies
+                on tables to present data. I approached this design by using
+                atoms for different parameters such as date, status, and name,
+                and then built smart columns and tables to make it easy to
+                adjust the table to specific design needs. One of the key
+                features of this design is the ability to easily adjust the
+                columns size, making it easy to create tables that are both
+                functional and visually appealing. The component is designed to
+                be flexible and adaptable, ensuring that it can meet the various
+                design needs of the different tables within the Authomize
+                product. This tables page is user-friendly and provides a
+                comprehensive solution for all table-related design needs.
+              </div>
+              <div className="image-flex">
+                <div className="img-flex-1">
+                  <img
+                    src="/img/screen-shot-2023-01-23-at-12-37.png"
+                    alt="Mask-Group"
+                    className="Design-one"
+                  />
+                </div>
+                <div className="img-flex-2">
+                  <img
+                    src="/img/mask-group-2.png"
+                    alt="Button-Image"
+                    className="Design-two"
+                  />
+                </div>
+              </div>
 
-          <div className="Design-newBlack-h">Alerts</div>
-          <div className="Design-big-para">
-            The alerts page in the design system is an important component, as
-            it provides a clear and consistent way to communicate important
-            information to users. The components are divided into four different
-            types of alerts, each with its own color scheme to help users
-            quickly identify the type of alert they are seeing. This color
-            division helps users to understand the level of importance and the
-            action needed for each type of alert. The design of the alerts is
-            also clean and minimalistic, making it easy to read and understand
-            the message. Additionally, the alerts are designed to be easily
-            recognizable, so users can quickly understand the message and take
-            the appropriate action.
-          </div>
-          <div className="image-flex">
-            <div className="img-flex-1">
-              <img
-                src="/img/mask-group-1.png"
-                alt="Mask-Group"
-                className="Design-one"
-              />
-            </div>
-            <div className="img-flex-2">
-              <img
-                src="/img/mask-group.png"
-                alt="Button-Image"
-                className="Design-two"
-              />
-            </div>
-          </div>
+              <div className="Design-newBlack-h-2">Alerts</div>
+              <div className="Design-big-para">
+                The alerts page in the design system is an important component,
+                as it provides a clear and consistent way to communicate
+                important information to users. The components are divided into
+                four different types of alerts, each with its own color scheme
+                to help users quickly identify the type of alert they are
+                seeing. This color division helps users to understand the level
+                of importance and the action needed for each type of alert. The
+                design of the alerts is also clean and minimalistic, making it
+                easy to read and understand the message. Additionally, the
+                alerts are designed to be easily recognizable, so users can
+                quickly understand the message and take the appropriate action.
+              </div>
+              <div className="image-flex">
+                <div className="img-flex-1">
+                  <img
+                    src="/img/mask-group-1.png"
+                    alt="Mask-Group"
+                    className="Design-one"
+                  />
+                </div>
+                <div className="img-flex-2">
+                  <img
+                    src="/img/mask-group.png"
+                    alt="Button-Image"
+                    className="Design-two"
+                  />
+                </div>
+              </div>
 
-          <div className="Design-newBlack-h">Inputs</div>
-          <div className="Design-big-para">
-            The inputs section of the design system is a crucial component, as
-            it provides a consistent and user-friendly way for users to input
-            data. The section is divided into two pages: one for drop-downs and
-            one for text inputs. This separation allows for easy navigation and
-            makes it clear for the developers (and future designers), what type
-            of input is needed. The page includes all the different sizes and
-            states for each type of input, making it easy for the designer to
-            choose the appropriate input for their design needs. The dropdown
-            page includes all the different states like selected, hover,
-            disabled and so on. The text input page includes all the different
-            sizes and states, like error, disabled, and so on. This
-            comprehensive approach ensures that all input needs are met and that
-            the design is consistent and user-friendly. I also added guidelines
-            for how to place inputs in a form, indicates the spaces and titles
-            sizes needed.
-          </div>
-          <div className="image-flex">
-            <div className="img-flex-1">
-              <img
-                src="/img/screen-shot-2023-01-23-at-12-48-1.png"
-                alt="Mask-Group"
-                className="Design-one"
-              />
+              <div className="Design-newBlack-h-2">Inputs</div>
+              <div className="Design-big-para">
+                The inputs section of the design system is a crucial component,
+                as it provides a consistent and user-friendly way for users to
+                input data. The section is divided into two pages: one for
+                drop-downs and one for text inputs. This separation allows for
+                easy navigation and makes it clear for the developers (and
+                future designers), what type of input is needed. The page
+                includes all the different sizes and states for each type of
+                input, making it easy for the designer to choose the appropriate
+                input for their design needs. The dropdown page includes all the
+                different states like selected, hover, disabled and so on. The
+                text input page includes all the different sizes and states,
+                like error, disabled, and so on. This comprehensive approach
+                ensures that all input needs are met and that the design is
+                consistent and user-friendly. I also added guidelines for how to
+                place inputs in a form, indicates the spaces and titles sizes
+                needed.
+              </div>
+              <div className="image-flex">
+                <div className="img-flex-1">
+                  <img
+                    src="/img/screen-shot-2023-01-23-at-12-48-1.png"
+                    alt="Mask-Group"
+                    className="Design-one"
+                  />
+                </div>
+                <div className="img-flex-2">
+                  <img
+                    src="/img/screen-shot-2023-01-23-at-12-48.png"
+                    alt="Button-Image"
+                    className="Design-two"
+                  />
+                </div>
+              </div>
             </div>
-            <div className="img-flex-2">
-              <img
-                src="/img/screen-shot-2023-01-23-at-12-48.png"
-                alt="Button-Image"
-                className="Design-two"
-              />
+            <div className="Design-col-content Design-mar-left">
+              <div className="Design-blue-h">
+                Building a Comprehensive Design System:
+              </div>
+              <div className="Design-newBlack-h">
+                The Challenges and Rewards
+              </div>
+              <div className="Design-big-para">
+                In conclusion, building a comprehensive design system for
+                Authomize was a challenging but rewarding project. By utilizing
+                Figma's advanced features, I was able to create a user-friendly
+                and easily navigable system that promotes consistency in design
+                and facilitates communication with the front-end team. The
+                design system includes components for buttons, tables, alerts
+                and inputs, each with their different states and behaviors.
+                Additionally, I also incorporated best practices such as using a
+                modular approach, testing with real users, prioritizing
+                accessibility, and incorporating version control to ensure the
+                design system is efficient, user-friendly and adaptable to the
+                changing requirements of the product. Overall, the design system
+                is a valuable asset to the company, streamlining the design
+                process and improving the overall user experience of Authomize's
+                product.
+              </div>
             </div>
-          </div>
-        </div>
-        <div className="Design-col-content">
-          <div className="Design-blue-h">
-            Building a Comprehensive Design System:
-          </div>
-          <div className="Design-newBlack-h">The Challenges and Rewards</div>
-          <div className="Design-big-para">
-            In conclusion, building a comprehensive design system for Authomize
-            was a challenging but rewarding project. By utilizing Figma's
-            advanced features, I was able to create a user-friendly and easily
-            navigable system that promotes consistency in design and facilitates
-            communication with the front-end team. The design system includes
-            components for buttons, tables, alerts and inputs, each with their
-            different states and behaviors. Additionally, I also incorporated
-            best practices such as using a modular approach, testing with real
-            users, prioritizing accessibility, and incorporating version control
-            to ensure the design system is efficient, user-friendly and
-            adaptable to the changing requirements of the product. Overall, the
-            design system is a valuable asset to the company, streamlining the
-            design process and improving the overall user experience of
-            Authomize's product.
           </div>
         </div>
         <div className="Design-footerr">

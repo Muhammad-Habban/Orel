@@ -36,7 +36,7 @@ a {
   --title-line-height: 36.79999923706055px;
 }
 
-/* .query-builder {
+.query-builder {
   background-color: #ffffff;
   display: flex;
   flex-direction: row;
@@ -1037,23 +1037,83 @@ a {
   position: absolute;
   top: 0;
   white-space: nowrap;
-} */
+}
 
 
 
 
 /*  MY CSS  */
-.query-builder-2{
+.footer-outer-div
+{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 100px;
-  margin:40px auto 0;
+  justify-content: center;
+  gap: 45px;
+  max-width: 1440px;
+  margin:0 auto;
+  padding-top: 40px;
+  background-image: url(../../../docs/img/backgroundhero-gradienttop.svg);
+  background-repeat: no-repeat;
+}
+.outer-div
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 40px;
+  margin-left: -100px;
+}
+
+.mar-left
+{
+  margin-left: 85px;
+}
+
+@media only screen and (max-width: 1355px) {
+  .outer-div
+  {
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .outer-div
+  {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 1195px) {
+  .outer-div
+  {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+}
+.back-sign-btn
+{
+  width: 65px;
+  height: 65px;
+}
+ /* .first-inner-div
+ {
+  width: 100px;
+  height: 100px;
+  background-color: #e0dcdc;
+ } */
+
+.query-builder-2{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 78px;
 }
 .over-query-builder{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  gap: 25px;
 }
 
 .heading-query{
@@ -1178,7 +1238,7 @@ a {
 {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 18px;
   align-items: flex-start;
 }
 
@@ -1248,6 +1308,7 @@ a {
   flex-direction: column;
   align-items: flex-start;
   gap: 10px;
+  margin-top: -25px;
 }
 
 .inside-flex
@@ -1284,7 +1345,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 30px;
+  gap: 77px;
+  margin-top: 25px;
 }
 
 .process
@@ -1508,6 +1570,7 @@ strong
 .usability-image
 {
   margin-left: 100px;
+  margin-top: -35px;
 }
 
 .footerr
@@ -1565,6 +1628,12 @@ strong
   .over-query-builder{
     flex-direction: column;
     gap: 40px;
+  }
+  .query-builder-2{
+    align-items: center;
+  }
+  .mar-left{
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 950px) {
@@ -1697,7 +1766,6 @@ strong
   }
   .sixth-divison
   {
-    max-width: 1440px;
     width: 90%;
     margin: 0 auto;
     align-items: center;
@@ -1734,6 +1802,9 @@ strong
     object-fit: cover;
     width: 445px;
     height: 250px;
+}
+.sixth-divison{
+  gap: 43px;
 }
 }
 

@@ -485,8 +485,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
-  margin:40px auto 0;
+  gap: 60px;
 }
 .ElementWays-over-query-builder{
   display: flex;
@@ -506,6 +505,37 @@ a {
   width: 850px;
 }
 
+.ElementWays-outer-div
+{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 35px;
+  margin-left: -280px;
+}
+@media only screen and (max-width: 1355px) {
+  .ElementWays-outer-div
+  {
+    margin-left: -100px;
+  }
+}
+@media only screen and (max-width: 1240px) {
+  .ElementWays-outer-div
+  {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1235px) {
+  .ElementWays-outer-div
+  {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 30px;
+  }
+}
+
 .ElementWays-prod-p
 {
   color: #9251f7;
@@ -516,6 +546,30 @@ a {
   letter-spacing: var(--notes-letter-spacing);
   line-height: var(--notes-line-height);
   margin-bottom: -20px;
+}
+.ElementWays-prod-p-2
+{
+  color: #9251f7;
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  margin: 8px 0;
+}
+
+.tempText{
+  color: var(--layout-gray-60);
+  font-family: var(--notes-font-family);
+  font-size: var(--notes-font-size);
+  font-style: var(--notes-font-style);
+  font-weight: var(--notes-font-weight);
+  letter-spacing: var(--notes-letter-spacing);
+  line-height: var(--notes-line-height);
+  text-align: center;
+  white-space: nowrap;
+  margin: 18px 0;
 }
 
 .ElementWays-q-para
@@ -637,7 +691,9 @@ a {
 .ElementWays-second-part
 {
   display: flex;
-  place-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .ElementWays-m-5
 {
@@ -672,6 +728,10 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+}
+
+.ElementWays-footerr{
+  margin-top: 125px;
 }
 
 .ElementWays-video_mov
@@ -1106,6 +1166,10 @@ strong
     width: 360px;
     height: 190px;
   }
+  .ElementWays-footerr
+  {
+    margin-top: 90px;
+  }
 }
 @media only screen and (max-width: 880px) {
   .ElementWays-big-para{
@@ -1162,7 +1226,7 @@ strong
 @media only screen and (max-width: 825px) {
   .ElementWays-query-builder-2
   {
-    gap: 50px;
+    gap: 40px;
   }
   .ElementWays-black-qoute
   {
@@ -1177,6 +1241,10 @@ strong
   .ElementWays-carousel
   {
     width: 650px;
+  }
+  .ElementWays-footerr
+  {
+    margin-top: 80px;
   }
 }
 
@@ -1302,6 +1370,10 @@ strong
   .ElementWays-heading-query{
     width: 550px;
   }
+  .ElementWays-footerr
+  {
+    margin-top: 60px;
+  }
 }
 
 @media only screen and (max-width: 660px) {
@@ -1350,7 +1422,10 @@ strong
     width: 470px;
     font-size: 30px;
   }
-
+  .ElementWays-footerr
+  {
+    margin-top: 50px;
+  }
 }
 @media only screen and (max-width: 585px) {
   .ElementWays-c-img{
@@ -1393,6 +1468,10 @@ strong
 {
   grid-template-columns: auto auto auto ;
 }
+.ElementWays-footerr
+  {
+    margin-top: 30px;
+  }
 }
 
 @media only screen and (max-width: 565px) {
@@ -1466,6 +1545,10 @@ strong
   {
     width: 410px;
     height: 160px;
+  }
+  .ElementWays-footerr
+  {
+    margin-top: 20px;
   }
 }
 
