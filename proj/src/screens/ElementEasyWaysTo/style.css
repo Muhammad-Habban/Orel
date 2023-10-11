@@ -480,6 +480,123 @@ a {
   width: 924px;
 }
 
+
+/* Absoulte csss */
+@media only screen and (max-width: 1350px) {
+  .element-easy-ways-to .div
+  {
+    width: 1350px;
+  }
+  .element-easy-ways-to .overlap
+  {
+    width: 1350px;
+  }
+  
+  .element-easy-ways-to .footer
+  {
+    width: 1350px;
+  }
+  .element-easy-ways-to .group
+  {
+    left: 620px;
+  }
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .element-easy-ways-to .btn-sign
+  {
+    left: 70px;
+  }
+  .element-easy-ways-to .frame, .element-easy-ways-to .mobile-native
+  {
+    left: 169px;
+  }
+  .element-easy-ways-to .frame-2
+  {
+    left: 169px;
+  }
+  .element-easy-ways-to .group-3
+  {
+    left: 346px;
+  }
+  .element-easy-ways-to .group-4
+  {
+    left: 169px;
+  }
+  .element-easy-ways-to .group
+  {
+    left: 560px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .element-easy-ways-to .group
+  {
+    left: 500px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .element-easy-ways-to .btn-sign
+  {
+    left: 50px;
+  }
+  .element-easy-ways-to .frame, .element-easy-ways-to .mobile-native
+  {
+    left: 149px;
+  }
+  .element-easy-ways-to .frame-2
+  {
+    left: 149px;
+  }
+  .element-easy-ways-to .group-3
+  {
+    left: 326px;
+  }
+  .element-easy-ways-to .group-4
+  {
+    left: 149px;
+  }
+  .element-easy-ways-to .group
+  {
+    left: 520px;
+  }
+}
+@media only screen and (max-width: 1050px) {
+  .element-easy-ways-to .btn-sign
+  {
+    left: 30px;
+  }
+  .element-easy-ways-to .frame, .element-easy-ways-to .mobile-native
+  {
+    left: 129px;
+  }
+  .element-easy-ways-to .frame-2
+  {
+    left: 129px;
+  }
+  .element-easy-ways-to .group-3
+  {
+    left: 306px;
+  }
+  .element-easy-ways-to .group-4
+  {
+    left: 129px;
+  }
+  .element-easy-ways-to .group
+  {
+    left: 520px;
+  }
+}
+
+@media only screen and (max-width: 1025px) {
+  .element-easy-ways-to .group
+  {
+    left: 500px;
+  }
+}
+
+
 /* My CSS */
 .ElementWays-query-builder-2{
   display: flex;

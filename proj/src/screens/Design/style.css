@@ -826,6 +826,178 @@ a {
   white-space: nowrap;
 }
 
+
+/* Absolute CSS */
+@media only screen and (max-width: 1350px) {
+  .design .div
+  {
+    width: 1350px;
+  }
+  .design .overlap
+  {
+    width: 1350px;
+  }
+  
+  .design .footer
+  {
+    width: 1350px;
+  }
+  .design .group-19
+  {
+    left: 626px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .design .btn-sign
+  {
+    left: 70px;
+  }
+  .design .mobile-native
+  {
+    left: 172px;
+  }
+  
+  .design .frame
+  {
+    left: 172px;
+  }
+  .design .screen-shot
+  {
+    left: 709px;
+  }
+  .design .group-2, .design .frame-3
+  {
+    left: 278px;
+  }
+  .design .group-19
+  {
+    left: 600px;
+  }
+}
+
+/* Second break-point */
+@media only screen and (max-width: 1270px) {
+  .design .btn-sign {
+    left: 55px; 
+  }
+  
+  .design .frame, .design .mobile-native {
+    left: 157px; 
+  }
+  .design .screen-shot {
+    left: 694px; 
+  }
+  .design .group-2, .design .frame-3{
+    left: 248px; 
+  }
+  .design .group-19
+  {
+    left: 570px;
+  }
+}
+
+/* 3rd break-point */
+@media only screen and (max-width: 1245px) {
+  .design .btn-sign {
+    left: 35px; 
+  }
+  
+  .design .frame, .design .mobile-native {
+    left: 137px; 
+  }
+  .design .screen-shot {
+    left: 674px; 
+  }
+  .design .group-2, .design .frame-3{
+    left: 228px; 
+  }
+  .design .group-19
+  {
+    left: 550px;
+  }
+}
+/* 4th break-point */
+@media only screen and (max-width: 1215px) {
+  .design .btn-sign {
+    left: 25px; 
+  }
+  
+  .design .frame, .design .mobile-native {
+    left: 127px; 
+  }
+  .design .screen-shot {
+    left: 664px; 
+  }
+  .design .group-2, .design .frame-3{
+    left: 218px; 
+  }
+  .design .group-19
+  {
+    left: 540px;
+  }
+}
+
+@media only screen and (max-width: 1185px) {
+  .design .btn-sign {
+    left: 15px; 
+  }
+  
+  .design .frame, .design .mobile-native {
+    left: 107px; 
+  }
+  .design .screen-shot {
+    left: 644px; 
+  }
+  .design .group-2, .design .frame-3{
+    left: 198px; 
+  }
+  .design .group-19
+  {
+    left: 520px;
+  }
+}
+
+@media only screen and (max-width: 1155px) {
+  .design .btn-sign {
+    left: 10px; 
+  }
+  
+  .design .frame, .design .mobile-native {
+    left: 87px; 
+  }
+  .design .screen-shot {
+    left: 624px; 
+  }
+  .design .group-2, .design .frame-3{
+    left: 178px; 
+  }
+  .design .group-19
+  {
+    left: 500px;
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .design .screen-shot {
+    left: 594px; 
+  }
+  .design .group-2, .design .frame-3{
+    left: 148px; 
+  }
+  .design .group-19
+  {
+    left: 470px;
+  }
+}
+
+
+
+
+
+
+
+
+
 /* MY CSS */
 .Design-query-builder-2{
   display: flex;
@@ -1797,7 +1969,7 @@ strong
 @media only screen and (max-width: 565px) {
   .Design-q-para, .Design-big-para, .Design-black-qoute, .Design-another-para, .Design-para-kick
   {
-    width: 450px;
+    width: 420px;
   }
   .Design-inven, .Design-li
   {
@@ -1807,10 +1979,6 @@ strong
   .Design-video_mov {
     width: 420px;
     height: 240px;
-  }
-  .Design-q-para
-  {
-    width: 480px;
   }
   .Design-first-divison
   {

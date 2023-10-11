@@ -1039,11 +1039,458 @@ a {
   white-space: nowrap;
 }
 
+/* Absolute CSS */
+@media only screen and (max-width: 1350px) {
+  .query-builder .div
+  {
+    width: 1350px;
+  }
+  .query-builder .overlap
+  {
+    width: 1350px;
+  }
+  
+  .query-builder .footer
+  {
+    width: 1350px;
+  }
+  .query-builder .overlap-5
+  {
+    width: 1350px;
+  }
+  .query-builder .group-31
+  {
+    left: 630px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .query-builder .btn-sign
+  {
+    left: 70px;
+  }
+  .query-builder .mobile-native, .query-builder .simulador-de-cr-dito
+  {
+    left: 172px;
+  }
+  
+  .query-builder .propuesta-de-concept
+  {
+    left: 172px;
+  }
+  .query-builder .inventory
+  {
+    left: 709px;
+  }
+  .query-builder .list
+  {
+    left: 817px;
+  }
+  .query-builder .group-2
+  {
+    left: 172px;
+  }
+  .query-builder .group
+  {
+    left: 272px;
+  }
+  .query-builder .group-3
+  {
+    left: 262px;
+  }
+  .query-builder .group-6
+  {
+    left: 272px;
+  }
+  .query-builder .what-people-are-sayi-wrapper
+  {
+    left: 272px;
+  }
+  .query-builder .group-7
+  {
+    left: 272px;
+  }
+  .query-builder .overlap-2
+  {
+    left: 272px;
+  }
+  .query-builder .group-16
+  {
+    left: 272px;
+  }
+  .query-builder .screen-shot
+  {
+    left: 329px;
+  }
+  .query-builder .group-23
+  {
+    left: 815px;
+  }
+  .query-builder .overlap-3
+  {
+    left: 272px;
+  }
+  .query-builder .group-24
+  {
+    left: 272px;
+  }
+  .query-builder .group-27
+  {
+    left: 272px;
+  }
+  .query-builder .group-31
+  {
+    left: 600px;
+  }
+}
+
+/* Second break-point */
+@media only screen and (max-width: 1270px) {
+  .query-builder .btn-sign {
+    left: 55px;   }
+  .query-builder .mobile-native, .query-builder .simulador-de-cr-dito {
+    left: 157px; 
+  }
+  
+  .query-builder .propuesta-de-concept {
+    left: 157px; 
+  }
+  .query-builder .inventory {
+    left: 694px; 
+  }
+  .query-builder .list {
+    left: 802px; 
+  }
+  .query-builder .group-2 {
+    left: 157px; 
+  }
+  .query-builder .group {
+    left: 257px; 
+  }
+  .query-builder .group-3 {
+    left: 247px; 
+  }
+  .query-builder .group-6 {
+    left: 257px; 
+  }
+  .query-builder .what-people-are-sayi-wrapper {
+    left: 257px; 
+  }
+  .query-builder .group-7 {
+    left: 257px; 
+  }
+  .query-builder .overlap-2 {
+    left: 257px; 
+  }
+  .query-builder .group-16 {
+    left: 257px; 
+  }
+  .query-builder .screen-shot {
+    left: 314px; 
+  }
+  .query-builder .group-23 {
+    left: 800px; 
+  }
+  .query-builder .overlap-3 {
+    left: 257px; 
+  }
+  .query-builder .group-24 {
+    left: 257px; 
+  }
+  .query-builder .group-27 {
+    left: 257px; 
+  }
+  .query-builder .group-31 {
+    left: 585px; 
+  }
+}
+
+/* 3rd break-point */
+@media only screen and (max-width: 1245px) {
+  .query-builder .btn-sign {
+    left: 35px; /* 55px - 20px */
+  }
+  .query-builder .mobile-native, .query-builder .simulador-de-cr-dito {
+    left: 137px; /* 157px - 20px */
+  }
+  
+  .query-builder .propuesta-de-concept {
+    left: 137px; /* 157px - 20px */
+  }
+  .query-builder .inventory {
+    left: 674px; /* 694px - 20px */
+  }
+  .query-builder .list {
+    left: 782px; /* 802px - 20px */
+  }
+  .query-builder .group-2 {
+    left: 137px; /* 157px - 20px */
+  }
+  .query-builder .group {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .group-3 {
+    left: 227px; /* 247px - 20px */
+  }
+  .query-builder .group-6 {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .what-people-are-sayi-wrapper {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .group-7 {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .overlap-2 {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .group-16 {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .screen-shot {
+    left: 294px; /* 314px - 20px */
+  }
+  .query-builder .group-23 {
+    left: 780px; /* 800px - 20px */
+  }
+  .query-builder .overlap-3 {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .group-24 {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .group-27 {
+    left: 237px; /* 257px - 20px */
+  }
+  .query-builder .group-31 {
+    left: 565px; /* 585px - 20px */
+  }
+}
+/* 4th break-point */
+@media only screen and (max-width: 1215px) {
+  .query-builder .btn-sign {
+    left: 10px; /* 35px - 25px */
+  }
+  .query-builder .mobile-native, .query-builder .simulador-de-cr-dito {
+    left: 112px; /* 137px - 25px */
+  }
+  
+  .query-builder .propuesta-de-concept {
+    left: 112px; /* 137px - 25px */
+  }
+  .query-builder .inventory {
+    left: 649px; /* 674px - 25px */
+  }
+  .query-builder .list {
+    left: 757px; /* 782px - 25px */
+  }
+  .query-builder .group-2 {
+    left: 112px; /* 137px - 25px */
+  }
+  .query-builder .group {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .group-3 {
+    left: 202px; /* 227px - 25px */
+  }
+  .query-builder .group-6 {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .what-people-are-sayi-wrapper {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .group-7 {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .overlap-2 {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .group-16 {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .screen-shot {
+    left: 269px; /* 294px - 25px */
+  }
+  .query-builder .group-23 {
+    left: 755px; /* 780px - 25px */
+  }
+  .query-builder .overlap-3 {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .group-24 {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .group-27 {
+    left: 212px; /* 237px - 25px */
+  }
+  .query-builder .group-31 {
+    left: 540px; /* 565px - 25px */
+  }
+}
+
+@media only screen and (max-width: 1185px) {
+  .query-builder .mobile-native, .query-builder .simulador-de-cr-dito {
+    left: 92px; /* 112px - 30px */
+  }
+  
+  .query-builder .propuesta-de-concept {
+    left: 82px; /* 112px - 30px */
+    width: 430px;
+  }
+  .query-builder .inventory {
+    left: 619px; /* 649px - 30px */
+  }
+  .query-builder .list {
+    left: 727px; /* 757px - 30px */
+  }
+  .query-builder .group-2 {
+    left: 82px; /* 112px - 30px */
+  }
+  .query-builder .group {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .group-3 {
+    left: 172px; /* 202px - 30px */
+  }
+  .query-builder .group-6 {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .what-people-are-sayi-wrapper {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .group-7 {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .overlap-2 {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .group-16 {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .screen-shot {
+    left: 239px; /* 269px - 30px */
+  }
+  .query-builder .group-23 {
+    left: 725px; /* 755px - 30px */
+  }
+  .query-builder .overlap-3 {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .group-24 {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .group-27 {
+    left: 182px; /* 212px - 30px */
+  }
+  .query-builder .group-31 {
+    left: 510px; /* 540px - 30px */
+  }
+}
+
+@media only screen and (max-width: 1155px) {
+
+  .query-builder .inventory {
+    left: 589px; /* 619px - 30px */
+  }
+  .query-builder .list {
+    left: 697px; /* 727px - 30px */
+  }
+  .query-builder .group {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .group-3 {
+    left: 142px; /* 172px - 30px */
+  }
+  .query-builder .group-6 {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .what-people-are-sayi-wrapper {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .group-7 {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .overlap-2 {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .group-16 {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .screen-shot {
+    left: 209px; /* 239px - 30px */
+  }
+  .query-builder .group-23 {
+    left: 695px; /* 725px - 30px */
+  }
+  .query-builder .overlap-3 {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .group-24 {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .group-27 {
+    left: 152px; /* 182px - 30px */
+  }
+  .query-builder .group-31 {
+    left: 480px; /* 510px - 30px */
+  }
+}
+
+@media only screen and (max-width: 1130px) {
+  .query-builder .inventory {
+    left: 549px; /* 589px - 40px */
+  }
+  .query-builder .list {
+    left: 657px; /* 697px - 40px */
+  }
+
+  .query-builder .group {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .group-3 {
+    left: 102px; /* 142px - 40px */
+  }
+  .query-builder .group-6 {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .what-people-are-sayi-wrapper {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .group-7 {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .overlap-2 {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .group-16 {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .screen-shot {
+    left: 169px; /* 209px - 40px */
+  }
+  .query-builder .group-23 {
+    left: 655px; /* 695px - 40px */
+  }
+  .query-builder .overlap-3 {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .group-24 {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .group-27 {
+    left: 112px; /* 152px - 40px */
+  }
+  .query-builder .group-31 {
+    left: 440px; /* 480px - 40px */
+  }
+}
+
+
+
 
 
 
 /*  MY CSS  */
-.footer-outer-div
+ .footer-outer-div
 {
   display: flex;
   flex-direction: column;
@@ -1096,12 +1543,6 @@ a {
   width: 65px;
   height: 65px;
 }
- /* .first-inner-div
- {
-  width: 100px;
-  height: 100px;
-  background-color: #e0dcdc;
- } */
 
 .query-builder-2{
   display: flex;
@@ -1624,7 +2065,7 @@ strong
   margin-bottom: -2px;
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1075px) {
   .over-query-builder{
     flex-direction: column;
     gap: 40px;
@@ -1720,9 +2161,9 @@ strong
     height: 300px;
   }
   .inside-flexx {
-      flex-direction: column;
-      align-items: center;
-      gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
   .sketch-col
   {
@@ -1736,15 +2177,6 @@ strong
   {
     width: 650px;
   }
-  /* .width-for-para
-  {
-    width: 75%;
-  }
-
-  .width-for-para-2
-  {
-    width: 75%;
-  } */
   .fourth-division
   {
     margin-left: 15px;
